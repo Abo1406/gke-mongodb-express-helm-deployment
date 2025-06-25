@@ -6,5 +6,6 @@
 
 Production-grade deployment of MongoDB ReplicaSet with Mongo-Express admin UI on Google Kubernetes Engine. Managed through Helm charts with persistent storage and secure ingress access.
 
-![Architecture Diagram](![deepseek_mermaid_20250625_3e1230])(https://github.com/user-attachments/assets/f3ed432b-9e9e-4b29-a537-9f1ed2accd5c)
+![deepseek_mermaid_20250625_3e1230](https://github.com/user-attachments/assets/71de462d-3000-4e71-8999-d8bacd0cf08c)
+
 
