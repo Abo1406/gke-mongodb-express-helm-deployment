@@ -4,7 +4,20 @@
 [![Helm](https://img.shields.io/badge/Helm-v3.10+-0F1689?logo=helm&logoColor=white)](https://helm.sh/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0+-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-Production-grade deployment of MongoDB ReplicaSet with Mongo-Express admin UI on Google Kubernetes Engine. Managed through Helm charts with persistent storage and secure ingress access.
+This repository contains a production-ready Kubernetes deployment for MongoDB ReplicaSet with Mongo-Express admin interface on Google Kubernetes Engine (GKE). The infrastructure is provisioned using Helm charts and follows Kubernetes best practices for stateful applications.
+
+## Key Components:
+   1- MongoDB ReplicaSet (3 nodes + arbiter) with persistent storage
+
+   2- Mongo-Express Web UI for database administration
+
+   3- NGINX Ingress Controller for external access
+
+   4 -Secret Management for sensitive credentials
+
+   5- Helm Chart Configurations for repeatable deployments
+
+   6- Persistent Volume Claims using GKE standard storage
 
 ![deepseek_mermaid_20250625_3e1230](https://github.com/user-attachments/assets/71de462d-3000-4e71-8999-d8bacd0cf08c)
 
